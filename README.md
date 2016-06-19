@@ -9,7 +9,7 @@ Just a text editor and a Web browser
 
 Example
 -------
-```json
+```javascript
 [
     {
         name: '1. Person',
@@ -58,8 +58,11 @@ Example
 What is used?
 -------------
  - Raphaël JS 2.1.2 - JavaScript Vector Library: Drawing of tables and relationships
+
     http://dmitrybaranovskiy.github.io/raphael/
  - Raphaël JSON: To export generated diagrams as a JSON
+
     https://github.com/AliasIO/Raphael.JSON
  - Scalable Vector Graphics (SVG): To export generated diagrams into images
+
     https://www.w3.org/2000/svg
