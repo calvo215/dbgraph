@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>  
+    <head>  
+        <title>Database diagram using Raphael - First prototype</title>
+		<meta charset="UTF-8">
+        <style type="text/css">  
+            #canvas_container {
+                width: 800px;  
+                border: 1px solid #aaa;  
+            }  
+        </style>
+		<script type="text/javascript" src="raphael.js"></script>
+        <script type="text/javascript" src="raphael.json.js"></script>
+		<script type="text/javascript" src="DB_Graph.js"></script>
+		<script type="text/javascript" src="putImage.js"></script>
+    </head>  
+    <body>
+		<div id="row">
+			<div id="canvas_container"></div>
+		</div>
+		<button onclick="saveState()">Save graph status</button>
+		<button onclick="restoreState()">Restore graph status</button>
+        <button onclick="putImage()" formtarget="_blank">Save as Image</button>
+		<div id="new_img">
+			<img id="export_img"><img>
+		</div>
+		<canvas id="export_canvas" width="800" height="500"></canvas>
+    </body>  
+</html>
