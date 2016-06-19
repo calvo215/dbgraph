@@ -1,14 +1,14 @@
 # dbgraph
 Database diagrams, using JSON input
 
-This an old solution I developed a couple of years ago and I want to share it. It was my first JS approach to solve a real problem in a big application. It is simple: Generate database diagrams, using a simple and commonly used input, with ease of integration.
+This an old solution I developed a couple of years ago and I want to share it. It was my first JS approach to solve a real problem in a big application. It is simple: Generate database diagrams, with a commonly used input, with ease of integration.
 
 What do you need?
 -----------------
 Just a text editor and a Web browser
 
-Example
--------
+Input example
+-------------
 ```javascript
 [
     {
@@ -55,7 +55,7 @@ Example
 ]
 ```
 
-What is used?
+What was used?
 -------------
  - Raphaël JS 2.1.2 - JavaScript Vector Library: Drawing of tables and relationships
 
